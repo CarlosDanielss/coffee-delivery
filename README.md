@@ -2,6 +2,8 @@
 
 <img src="https://i.imgur.com/1Wi5t7a.png" />
 
+[Visualizar projeto](https://carlosdanielss.github.io/coffee-delivery/)
+
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
