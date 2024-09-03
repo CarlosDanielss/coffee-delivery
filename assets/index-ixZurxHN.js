@@ -391,7 +391,7 @@ Error generating stack: `+o.message+`
   span {
     color: ${e=>e.theme["base-title"]};
   }
-`;function t1({count:e,onAddQuantityItem:t,onRemoveQuantityItem:n}){function r(){n()}function i(){t()}return k.jsxs(N8,{children:[k.jsx("button",{onClick:r,children:k.jsx(j0,{size:15})}),k.jsx("span",{children:e}),k.jsx("button",{onClick:i,children:k.jsx(P0,{size:15})})]})}function T8({id:e,title:t,description:n,tags:r,price:i,image:o}){const[s,a]=P.useState(1),{addItem:u}=Gi();function c(){a(d=>d+1)}function p(){a(d=>d<=1?1:d-1)}function f(){u({id:e,title:t,description:n,tags:r,price:i,image:o,amount:s}),wc.success("Produto adicionado ao carrinho.")}return k.jsxs(L8,{"data-aos":"zoom-in",children:[k.jsx("img",{src:o}),k.jsx(j8,{children:r.map(d=>k.jsx("span",{children:d},d))}),k.jsxs(C8,{children:[k.jsx("h3",{children:t}),k.jsx("p",{children:n})]}),k.jsxs(b8,{children:[k.jsxs("h4",{children:[k.jsx("span",{children:"R$ "}),i.toFixed(2)]}),k.jsxs("div",{children:[k.jsx(t1,{count:s,onAddQuantityItem:c,onRemoveQuantityItem:p}),k.jsx(P8,{onClick:f,children:k.jsx(N0,{size:22,weight:"fill"})})]})]})]})}const A8="/coffee-delivery/assets/Background-B3L8Ik2I.svg",R8="/coffee-delivery/assets/CupCoffee-Cg12re9-.png",M8=[{id:"0",title:"Expresso Tradicional",description:"O tradicional café feito com água quente e grãos moídos",tags:["tradicional"],price:9.9,image:"./coffees/expresso.png"},{id:"1",title:"Expresso Americano",description:"Expresso diluído, menos intenso que o tradicional",tags:["tradicional"],price:9.9,image:"./coffees/americano.png"},{id:"2",title:"Expresso Cremoso",description:"Café expresso tradicional com espuma cremosa",tags:["tradicional"],price:9.9,image:"./coffees/expresso-cremoso.png"},{id:"3",title:"Expresso Gelado",description:"Bebida preparada com café expresso e cubos de gelo",tags:["tradicional","gelado"],price:9.9,image:"./coffees/cafe-gelado.png"},{id:"4",title:"Café com Leite",description:"Meio a meio de expresso tradicional com leite vaporizado",tags:["tradicional","com leite"],price:9.9,image:"./coffees/cafe-com-leite.png"},{id:"5",title:"Latte",description:"Uma dose de café expresso com o dobro de leite e espuma cremosa",tags:["tradicional","com leite"],price:9.9,image:"./coffees/latte.png"},{id:"6",title:"Capuccino",description:"Bebida com canela feita de doses iguais de café, leite e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/capuccino.png"},{id:"7",title:"Macchiato",description:"Café expresso misturado com um pouco de leite quente e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/macchiato.png"},{id:"8",title:"Mocaccino",description:"Café expresso misturado com um pouco de leite quente e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/mochaccino.png"},{id:"9",title:"Chocolate Quente",description:"Bebida feita com chocolate dissolvido no leite quente e café",tags:["especial","com leite"],price:9.9,image:"./coffees/chocolate-quente.png"},{id:"10",title:"Cubano",description:"Drink gelado de café expresso com rum, creme de leite e hortelã",tags:["especial","alcoólico","gelado"],price:9.9,image:"./coffees/cubano.png"},{id:"11",title:"Havaiano",description:"Bebida adocicada preparada com café e leite de coco",tags:["especial"],price:9.9,image:"./coffees/havaiano.png"},{id:"12",title:"Árabe",description:"Bebida preparada com grãos de café árabe e especiarias",tags:["especial"],price:9.9,image:"./coffees/arabe.png"},{id:"13",title:"Irlandês",description:"Bebida a base de café, uísque irlandês, açúcar e chantilly",tags:["especial","alcoólico"],price:9.9,image:"../coffees/irlandes.png"}],Ws={sm:"445px",md:"604px",lg:"1024px",xl:"1160px"},st={sm:`(max-width: ${Ws.sm})`,md:`(max-width: ${Ws.md})`,lg:`(max-width: ${Ws.lg})`,xl:`(max-width: ${Ws.xl})`},O8=G.section`
+`;function t1({count:e,onAddQuantityItem:t,onRemoveQuantityItem:n}){function r(){n()}function i(){t()}return k.jsxs(N8,{children:[k.jsx("button",{onClick:r,children:k.jsx(j0,{size:15})}),k.jsx("span",{children:e}),k.jsx("button",{onClick:i,children:k.jsx(P0,{size:15})})]})}function T8({id:e,title:t,description:n,tags:r,price:i,image:o}){const[s,a]=P.useState(1),{addItem:u}=Gi();function c(){a(d=>d+1)}function p(){a(d=>d<=1?1:d-1)}function f(){u({id:e,title:t,description:n,tags:r,price:i,image:o,amount:s}),wc.success("Produto adicionado ao carrinho.")}return k.jsxs(L8,{"data-aos":"zoom-in",children:[k.jsx("img",{src:o}),k.jsx(j8,{children:r.map(d=>k.jsx("span",{children:d},d))}),k.jsxs(C8,{children:[k.jsx("h3",{children:t}),k.jsx("p",{children:n})]}),k.jsxs(b8,{children:[k.jsxs("h4",{children:[k.jsx("span",{children:"R$ "}),i.toFixed(2)]}),k.jsxs("div",{children:[k.jsx(t1,{count:s,onAddQuantityItem:c,onRemoveQuantityItem:p}),k.jsx(P8,{onClick:f,children:k.jsx(N0,{size:22,weight:"fill"})})]})]})]})}const A8="/coffee-delivery/assets/Background-B3L8Ik2I.svg",R8="/coffee-delivery/assets/CupCoffee-Cg12re9-.png",M8="/coffee-delivery/assets/expresso-CC9_S6kg.png",O8=[{id:"0",title:"Expresso Tradicional",description:"O tradicional café feito com água quente e grãos moídos",tags:["tradicional"],price:9.9,image:M8},{id:"1",title:"Expresso Americano",description:"Expresso diluído, menos intenso que o tradicional",tags:["tradicional"],price:9.9,image:"./coffees/americano.png"},{id:"2",title:"Expresso Cremoso",description:"Café expresso tradicional com espuma cremosa",tags:["tradicional"],price:9.9,image:"./coffees/expresso-cremoso.png"},{id:"3",title:"Expresso Gelado",description:"Bebida preparada com café expresso e cubos de gelo",tags:["tradicional","gelado"],price:9.9,image:"./coffees/cafe-gelado.png"},{id:"4",title:"Café com Leite",description:"Meio a meio de expresso tradicional com leite vaporizado",tags:["tradicional","com leite"],price:9.9,image:"./coffees/cafe-com-leite.png"},{id:"5",title:"Latte",description:"Uma dose de café expresso com o dobro de leite e espuma cremosa",tags:["tradicional","com leite"],price:9.9,image:"./coffees/latte.png"},{id:"6",title:"Capuccino",description:"Bebida com canela feita de doses iguais de café, leite e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/capuccino.png"},{id:"7",title:"Macchiato",description:"Café expresso misturado com um pouco de leite quente e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/macchiato.png"},{id:"8",title:"Mocaccino",description:"Café expresso misturado com um pouco de leite quente e espuma",tags:["tradicional","com leite"],price:9.9,image:"./coffees/mochaccino.png"},{id:"9",title:"Chocolate Quente",description:"Bebida feita com chocolate dissolvido no leite quente e café",tags:["especial","com leite"],price:9.9,image:"./coffees/chocolate-quente.png"},{id:"10",title:"Cubano",description:"Drink gelado de café expresso com rum, creme de leite e hortelã",tags:["especial","alcoólico","gelado"],price:9.9,image:"./coffees/cubano.png"},{id:"11",title:"Havaiano",description:"Bebida adocicada preparada com café e leite de coco",tags:["especial"],price:9.9,image:"./coffees/havaiano.png"},{id:"12",title:"Árabe",description:"Bebida preparada com grãos de café árabe e especiarias",tags:["especial"],price:9.9,image:"./coffees/arabe.png"},{id:"13",title:"Irlandês",description:"Bebida a base de café, uísque irlandês, açúcar e chantilly",tags:["especial","alcoólico"],price:9.9,image:"../coffees/irlandes.png"}],Ws={sm:"445px",md:"604px",lg:"1024px",xl:"1160px"},st={sm:`(max-width: ${Ws.sm})`,md:`(max-width: ${Ws.md})`,lg:`(max-width: ${Ws.lg})`,xl:`(max-width: ${Ws.xl})`},$8=G.section`
   position: relative;
 
   > img {
@@ -403,7 +403,7 @@ Error generating stack: `+o.message+`
     left: 0;
     object-fit: cover;
   }
-`,$8=G.div`
+`,I8=G.div`
   max-width: 1160px;
   margin: 0 auto;
   padding: 92px 20px;
@@ -429,7 +429,7 @@ Error generating stack: `+o.message+`
     align-items: center;
     text-align: center;
   }
-`,I8=G.header`
+`,z8=G.header`
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -447,7 +447,7 @@ Error generating stack: `+o.message+`
     ${ke.fonts.textL}
     color: ${e=>e.theme["base-subtitle"]}
   }
-`,z8=G.footer`
+`,W8=G.footer`
   display: flex;
   gap: 40px;
 
@@ -474,17 +474,17 @@ Error generating stack: `+o.message+`
   @media ${st.md} {
     text-align: start;
   }
-`,W8={yellow:"yellow",yellowDark:"yellow-dark",gray:"base-text",purple:"purple"},Ds=G.div`
+`,F8={yellow:"yellow",yellowDark:"yellow-dark",gray:"base-text",purple:"purple"},Ds=G.div`
   padding: 8px;
   display: flex;
   border-radius: 50%;
 
-  background: ${e=>e.theme[W8[e.$stampColor]]};
+  background: ${e=>e.theme[F8[e.$stampColor]]};
 
   > svg {
     color: ${e=>e.theme.white};
   }
-`,F8=G.main`
+`,D8=G.main`
   max-width: 1160px;
   margin: 0 auto;
   padding: 32px 20px 150px;
@@ -505,13 +505,13 @@ Error generating stack: `+o.message+`
       justify-content: center;
     }
   }
-`;function D8(){return k.jsxs(k.Fragment,{children:[k.jsxs(O8,{children:[k.jsxs($8,{children:[k.jsxs("div",{"data-aos":"fade-right",children:[k.jsxs(I8,{children:[k.jsx("h1",{children:"Encontre o café perfeito para qualquer hora do dia"}),k.jsx("h2",{children:"Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora"})]}),k.jsxs(z8,{children:[k.jsxs("div",{children:[k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"yellowDark",children:k.jsx(wl,{size:16,weight:"fill"})}),k.jsx("span",{children:"Compra simples e segura"})]}),k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"yellow",children:k.jsx(Cd,{size:16,weight:"fill"})}),k.jsx("span",{children:"Entrega rápida e rastreada"})]})]}),k.jsxs("div",{children:[k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"gray",children:k.jsx(b0,{size:16,weight:"fill"})}),k.jsx("span",{children:"Embalagem mantém o café intacto"})]}),k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"purple",children:k.jsx(_0,{size:16,weight:"fill"})}),k.jsx("span",{children:"O café chega fresquinho até você"})]})]})]})]}),k.jsx("img",{src:R8,alt:"Copo de café.","data-aos":"zoom-in"})]}),k.jsx("img",{src:A8,alt:"Efeito com varios circulos coloridos."})]}),k.jsxs(F8,{children:[k.jsx("h3",{children:"Nossos cafés"}),k.jsx("div",{children:M8.map(e=>k.jsx(T8,{id:e.id,title:e.title,description:e.description,tags:e.tags,price:e.price,image:e.image},e.id))})]})]})}function au(e){return new Intl.NumberFormat("pt-br",{currency:"BRL",style:"currency"}).format(e)}const V8=G.div`
+`;function V8(){return k.jsxs(k.Fragment,{children:[k.jsxs($8,{children:[k.jsxs(I8,{children:[k.jsxs("div",{"data-aos":"fade-right",children:[k.jsxs(z8,{children:[k.jsx("h1",{children:"Encontre o café perfeito para qualquer hora do dia"}),k.jsx("h2",{children:"Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora"})]}),k.jsxs(W8,{children:[k.jsxs("div",{children:[k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"yellowDark",children:k.jsx(wl,{size:16,weight:"fill"})}),k.jsx("span",{children:"Compra simples e segura"})]}),k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"yellow",children:k.jsx(Cd,{size:16,weight:"fill"})}),k.jsx("span",{children:"Entrega rápida e rastreada"})]})]}),k.jsxs("div",{children:[k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"gray",children:k.jsx(b0,{size:16,weight:"fill"})}),k.jsx("span",{children:"Embalagem mantém o café intacto"})]}),k.jsxs(Fs,{children:[k.jsx(Ds,{$stampColor:"purple",children:k.jsx(_0,{size:16,weight:"fill"})}),k.jsx("span",{children:"O café chega fresquinho até você"})]})]})]})]}),k.jsx("img",{src:R8,alt:"Copo de café.","data-aos":"zoom-in"})]}),k.jsx("img",{src:A8,alt:"Efeito com varios circulos coloridos."})]}),k.jsxs(D8,{children:[k.jsx("h3",{children:"Nossos cafés"}),k.jsx("div",{children:O8.map(e=>k.jsx(T8,{id:e.id,title:e.title,description:e.description,tags:e.tags,price:e.price,image:e.image},e.id))})]})]})}function au(e){return new Intl.NumberFormat("pt-br",{currency:"BRL",style:"currency"}).format(e)}const B8=G.div`
   display: flex;
   flex-direction: column;
   gap: 6px;
 
   grid-area: ${e=>e.$containerPosition};
-`,B8=G.div`
+`,H8=G.div`
   padding: 12px;
 
   display: flex;
@@ -549,12 +549,12 @@ Error generating stack: `+o.message+`
     font-style: italic;
     color: ${e=>e.theme["base-label"]};
   }
-`,H8=G.p`
+`,U8=G.p`
   ${ke.fonts.textXS}
   font-size: 0.7rem;
   font-weight: 400;
   color: red;
-`,pr=P.forwardRef(function({optional:t=!1,error:n,containerPosition:r,onFocus:i,onBlur:o,...s},a){const[u,c]=P.useState(!1);function p(d){c(!0),i==null||i(d)}function f(d){c(!1),o==null||o(d)}return k.jsxs(V8,{$containerPosition:r,children:[k.jsxs(B8,{$state:u?"focused":"blurred",children:[k.jsx("input",{onFocus:p,onBlur:f,ref:a,...s}),t&&k.jsx("span",{children:"Opcional"})]}),n&&k.jsx(H8,{children:n.message})]})}),U8=G.label`
+`,pr=P.forwardRef(function({optional:t=!1,error:n,containerPosition:r,onFocus:i,onBlur:o,...s},a){const[u,c]=P.useState(!1);function p(d){c(!0),i==null||i(d)}function f(d){c(!1),o==null||o(d)}return k.jsxs(B8,{$containerPosition:r,children:[k.jsxs(H8,{$state:u?"focused":"blurred",children:[k.jsx("input",{onFocus:p,onBlur:f,ref:a,...s}),t&&k.jsx("span",{children:"Opcional"})]}),n&&k.jsx(U8,{children:n.message})]})}),Z8=G.label`
   padding: 16px;
 
   display: flex;
@@ -587,7 +587,7 @@ Error generating stack: `+o.message+`
   > svg {
     color: ${e=>e.theme.purple};
   }
-`,lu=P.forwardRef(function({isSelected:t,children:n,...r},i){return k.jsxs(U8,{"data-state":t,children:[k.jsx("input",{type:"radio",...r,ref:i}),n]})}),Z8=G.div`
+`,lu=P.forwardRef(function({isSelected:t,children:n,...r},i){return k.jsxs(Z8,{"data-state":t,children:[k.jsx("input",{type:"radio",...r,ref:i}),n]})}),Q8=G.div`
   width: 100%;
   padding: 8px 4px 32px;
 
@@ -608,7 +608,7 @@ Error generating stack: `+o.message+`
   @media ${st.sm} {
     flex-wrap: wrap;
   }
-`,Q8=G.div`
+`,Y8=G.div`
   display: flex;
   gap: 20px;
 
@@ -616,7 +616,7 @@ Error generating stack: `+o.message+`
     width: 64px;
     height: 64px;
   }
-`,Y8=G.div`
+`,G8=G.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -630,7 +630,7 @@ Error generating stack: `+o.message+`
     display: flex;
     gap: 8px;
   }
-`,G8=G.button`
+`,K8=G.button`
   padding: 8px;
 
   display: flex;
@@ -658,7 +658,7 @@ Error generating stack: `+o.message+`
       color: ${e=>e.theme["purple-dark"]};
     }
   }
-`;function K8({id:e,image:t,title:n,price:r,amount:i}){const{removeitem:o,increseNumberItems:s,reduceNumberItems:a}=Gi();function u(){o(e)}function c(){s(e)}function p(){a(e)}return k.jsxs(Z8,{children:[k.jsxs(Q8,{children:[k.jsx("img",{src:t}),k.jsxs(Y8,{children:[k.jsx("h3",{children:n}),k.jsxs("div",{children:[k.jsx(t1,{count:i,onAddQuantityItem:c,onRemoveQuantityItem:p}),k.jsxs(G8,{onClick:u,children:[k.jsx(T0,{size:16}),"REMOVER"]})]})]})]}),k.jsxs("span",{children:["R$ ",r.toFixed(2)]})]})}const q8=G.main`
+`;function q8({id:e,image:t,title:n,price:r,amount:i}){const{removeitem:o,increseNumberItems:s,reduceNumberItems:a}=Gi();function u(){o(e)}function c(){s(e)}function p(){a(e)}return k.jsxs(Q8,{children:[k.jsxs(Y8,{children:[k.jsx("img",{src:t}),k.jsxs(G8,{children:[k.jsx("h3",{children:n}),k.jsxs("div",{children:[k.jsx(t1,{count:i,onAddQuantityItem:c,onRemoveQuantityItem:p}),k.jsxs(K8,{onClick:u,children:[k.jsx(T0,{size:16}),"REMOVER"]})]})]})]}),k.jsxs("span",{children:["R$ ",r.toFixed(2)]})]})}const J8=G.main`
   max-width: 1160px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -672,7 +672,7 @@ Error generating stack: `+o.message+`
       align-items: center;
     }
   }
-`,J8=G.section`
+`,X8=G.section`
   width: 100%;
   max-width: 640px;
 
@@ -691,7 +691,7 @@ Error generating stack: `+o.message+`
 
   border-radius: 6px;
   background: ${e=>e.theme["base-card"]};
-`,X8=G(Rd)`
+`,ew=G(Rd)`
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -709,11 +709,11 @@ Error generating stack: `+o.message+`
       color: ${e=>e.theme["base-text"]};
     }
   }
-`,ew=G(n1)`
+`,tw=G(n1)`
   > svg {
     color: ${e=>e.theme["yellow-dark"]};
   }
-`,tw=G.div`
+`,nw=G.div`
   display: grid;
   grid-template-areas:
     "cep . ."
@@ -733,7 +733,7 @@ Error generating stack: `+o.message+`
       "city state";
     grid-template-columns: 1fr 1fr;
   }
-`,nw=G(Rd)`
+`,rw=G(Rd)`
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -743,30 +743,30 @@ Error generating stack: `+o.message+`
     flex-direction: column;
     gap: 6px;
   }
-`,rw=G(n1)`
+`,iw=G(n1)`
   > svg {
     color: ${e=>e.theme.purple};
   }
-`,iw=G.div`
+`,ow=G.div`
   display: flex;
   gap: 12px;
 
   @media ${st.sm} {
     flex-direction: column;
   }
-`,ow=G.p`
+`,sw=G.p`
   ${ke.fonts.textXS}
   font-size: 0.7rem;
   font-weight: 400;
   color: red;
-`,sw=G.section`
+`,aw=G.section`
   width: 100%;
   max-width: 448px;
 
   @media ${st.lg} {
     max-width: 640px;
   }
-`,aw=G(Rd)`
+`,lw=G(Rd)`
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -774,7 +774,7 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-direction: column;
   gap: 24px;
-`,lw=G(r1)`
+`,uw=G(r1)`
   max-height: 350px;
   overflow-y: scroll;
 
@@ -786,7 +786,7 @@ Error generating stack: `+o.message+`
     border-radius: 6px;
     background: ${e=>e.theme["base-hover"]};
   }
-`,uw=G(r1)``,cw=G.div`
+`,cw=G(r1)``,dw=G.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -827,7 +827,7 @@ Error generating stack: `+o.message+`
   &:hover {
     background: ${e=>e.theme["yellow-dark"]};
   }
-`,dw=G(i1)`
+`,fw=G(i1)`
   align-items: center;
 
   > svg {
@@ -845,7 +845,7 @@ Error generating stack: `+o.message+`
       }
     }
   }
-`,fw=G.section`
+`,pw=G.section`
   width: 100%;
   max-width: 440px;
 
@@ -869,9 +869,9 @@ Error generating stack: `+o.message+`
     ${ke.fonts.titleXS}
     color: ${e=>e.theme["base-label"]}
   }
-`,pw=G(i1)`
+`,hw=G(i1)`
   gap: 4px;
-`;async function hw(e){return fetch(`http://viacep.com.br/ws/${e}/json/`).then(t=>t.json())}const mw=Zt.object({cep:Zt.string().length(8,"O CEP deve ter exatamente 8 dígitos").regex(/^\d+$/,"O CEP deve conter apenas números"),street:Zt.string(),number:Zt.string().min(1,"O número deve ter pelo menos 1 digito"),fullAdrress:Zt.string().optional(),neighborhood:Zt.string(),city:Zt.string(),uf:Zt.string(),paymentMethod:Zt.enum(["credit","debit","cash"],{invalid_type_error:"Informe um método de pagamento"})});function yw(){const{cart:e,selectPaymentMethod:t}=Gi(),{setFullAddress:n}=El(),r=kl(),[i,o]=P.useState(!1),[s,a]=P.useState({items:0,delivery:8.9,total:0});P.useEffect(()=>{const b=e.map(T=>T.amount*T.price).reduce((T,X)=>T+X,0);a(T=>({items:b,delivery:T.delivery,total:b+T.delivery}))},[e]);const u=au(s.items),c=au(s.delivery),p=au(s.total),{register:f,handleSubmit:d,reset:v,setValue:x,watch:_,formState:{errors:C}}=D0({resolver:X0(mw),defaultValues:{cep:"",street:"",number:"",fullAdrress:"",neighborhood:"",city:"",uf:""}});function m(L){o(!0),setTimeout(()=>{const{paymentMethod:b,...T}=L;n(T),t(b),r("/success"),wc.success("Pedido concluído com sucesso.")},1500)}function h(){r("/")}const y=_("paymentMethod"),w=_("cep");P.useEffect(()=>{setTimeout(()=>{w.length===0&&v(),w!==void 0&&w.length===8&&hw(w).then(L=>(L.erro&&wc.warning("Verifique se o CEP está correto."),L)).then(({logradouro:L,bairro:b,localidade:T,uf:X})=>{x("street",L),x("neighborhood",b),x("city",T),x("uf",X)})},500)},[w,x,v]);const S=e.length!==0;return k.jsx(q8,{children:S?k.jsxs("div",{children:[k.jsxs(J8,{children:[k.jsx(Ep,{children:"Complete seu pedido"}),k.jsxs("form",{id:"completeOrderForm",onSubmit:d(m),children:[k.jsxs(X8,{children:[k.jsxs(ew,{children:[k.jsx(L0,{size:22}),k.jsxs("div",{children:[k.jsx("span",{children:"Endereço de Entrega"}),k.jsx("p",{children:"Informe o endereço onde deseja receber seu pedido"})]})]}),k.jsxs(tw,{children:[k.jsx(pr,{type:"number",...f("cep"),placeholder:"CEP",containerPosition:"cep",error:C.cep}),k.jsx(pr,{type:"text",...f("street"),placeholder:"Rua",containerPosition:"street",error:C.street,readOnly:!0}),k.jsx(pr,{type:"number",...f("number"),placeholder:"Número",containerPosition:"number",error:C.number}),k.jsx(pr,{type:"text",...f("fullAdrress"),placeholder:"Complemento",containerPosition:"fullAdrress",autoComplete:"off",optional:!0,error:C.fullAdrress}),k.jsx(pr,{type:"text",...f("neighborhood"),placeholder:"Bairro",containerPosition:"neighborhood",error:C.neighborhood,readOnly:!0}),k.jsx(pr,{type:"text",...f("city"),placeholder:"Cidade",containerPosition:"city",error:C.city,readOnly:!0}),k.jsx(pr,{type:"text",...f("uf"),placeholder:"UF",containerPosition:"state",error:C.uf,readOnly:!0})]})]}),k.jsxs(nw,{children:[k.jsxs(rw,{children:[k.jsx(Ld,{size:22}),k.jsxs("div",{children:[k.jsx("span",{children:"Pagamento"}),k.jsx("p",{children:"O pagamento é feito na entrega. Escolha a forma que deseja pagar"})]})]}),k.jsxs("div",{children:[k.jsxs(iw,{children:[k.jsxs(lu,{isSelected:y==="credit",...f("paymentMethod"),value:"credit",children:[k.jsx(S0,{size:16}),k.jsx("span",{children:"CARTÂO DE CRÉDITO"})]}),k.jsxs(lu,{isSelected:y==="debit",...f("paymentMethod"),value:"debit",children:[k.jsx(w0,{size:16}),k.jsx("span",{children:"CARTÂO DE DÉBITO"})]}),k.jsxs(lu,{isSelected:y==="cash",...f("paymentMethod"),value:"cash",children:[k.jsx(C0,{size:16}),k.jsx("span",{children:"DINHEIRO"})]})]}),C.paymentMethod&&k.jsx(ow,{children:C.paymentMethod.message})]})]})]})]}),k.jsxs(sw,{children:[k.jsx(Ep,{children:"Cafés selecionados"}),k.jsxs(aw,{children:[k.jsx(lw,{children:e.map(L=>k.jsx(K8,{id:L.id,image:L.image,title:L.title,price:L.price,amount:L.amount},L.id))}),k.jsxs(uw,{children:[k.jsxs(cw,{children:[k.jsxs("div",{children:[k.jsx("span",{children:"Total de itens"}),k.jsx("span",{children:u})]}),k.jsxs("div",{children:[k.jsx("span",{children:"Entrega"}),k.jsx("span",{children:c})]}),k.jsxs("div",{children:[k.jsx("h4",{children:"Total"}),k.jsx("h4",{children:p})]})]}),k.jsx(dw,{form:"completeOrderForm",type:"submit",disabled:i,children:i?k.jsx(E0,{size:28}):"CONFIRMAR PEDIDO"})]})]})]})]}):k.jsxs(fw,{children:[k.jsx("h1",{children:"Seu carrinho está vazio."}),k.jsx("h2",{children:"Não perca nossas promoções incríveis!"}),k.jsxs(pw,{onClick:h,children:[k.jsx(wl,{size:18,weight:"fill"}),"Voltar às Compras"]})]})})}const gw="/coffee-delivery/assets/Bike-YOVzfe4Z.svg",vw=G.main`
+`;async function mw(e){return fetch(`http://viacep.com.br/ws/${e}/json/`).then(t=>t.json())}const yw=Zt.object({cep:Zt.string().length(8,"O CEP deve ter exatamente 8 dígitos").regex(/^\d+$/,"O CEP deve conter apenas números"),street:Zt.string(),number:Zt.string().min(1,"O número deve ter pelo menos 1 digito"),fullAdrress:Zt.string().optional(),neighborhood:Zt.string(),city:Zt.string(),uf:Zt.string(),paymentMethod:Zt.enum(["credit","debit","cash"],{invalid_type_error:"Informe um método de pagamento"})});function gw(){const{cart:e,selectPaymentMethod:t}=Gi(),{setFullAddress:n}=El(),r=kl(),[i,o]=P.useState(!1),[s,a]=P.useState({items:0,delivery:8.9,total:0});P.useEffect(()=>{const b=e.map(T=>T.amount*T.price).reduce((T,X)=>T+X,0);a(T=>({items:b,delivery:T.delivery,total:b+T.delivery}))},[e]);const u=au(s.items),c=au(s.delivery),p=au(s.total),{register:f,handleSubmit:d,reset:v,setValue:x,watch:_,formState:{errors:C}}=D0({resolver:X0(yw),defaultValues:{cep:"",street:"",number:"",fullAdrress:"",neighborhood:"",city:"",uf:""}});function m(L){o(!0),setTimeout(()=>{const{paymentMethod:b,...T}=L;n(T),t(b),r("/success"),wc.success("Pedido concluído com sucesso.")},1500)}function h(){r("/")}const y=_("paymentMethod"),w=_("cep");P.useEffect(()=>{setTimeout(()=>{w.length===0&&v(),w!==void 0&&w.length===8&&mw(w).then(L=>(L.erro&&wc.warning("Verifique se o CEP está correto."),L)).then(({logradouro:L,bairro:b,localidade:T,uf:X})=>{x("street",L),x("neighborhood",b),x("city",T),x("uf",X)})},500)},[w,x,v]);const S=e.length!==0;return k.jsx(J8,{children:S?k.jsxs("div",{children:[k.jsxs(X8,{children:[k.jsx(Ep,{children:"Complete seu pedido"}),k.jsxs("form",{id:"completeOrderForm",onSubmit:d(m),children:[k.jsxs(ew,{children:[k.jsxs(tw,{children:[k.jsx(L0,{size:22}),k.jsxs("div",{children:[k.jsx("span",{children:"Endereço de Entrega"}),k.jsx("p",{children:"Informe o endereço onde deseja receber seu pedido"})]})]}),k.jsxs(nw,{children:[k.jsx(pr,{type:"number",...f("cep"),placeholder:"CEP",containerPosition:"cep",error:C.cep}),k.jsx(pr,{type:"text",...f("street"),placeholder:"Rua",containerPosition:"street",error:C.street,readOnly:!0}),k.jsx(pr,{type:"number",...f("number"),placeholder:"Número",containerPosition:"number",error:C.number}),k.jsx(pr,{type:"text",...f("fullAdrress"),placeholder:"Complemento",containerPosition:"fullAdrress",autoComplete:"off",optional:!0,error:C.fullAdrress}),k.jsx(pr,{type:"text",...f("neighborhood"),placeholder:"Bairro",containerPosition:"neighborhood",error:C.neighborhood,readOnly:!0}),k.jsx(pr,{type:"text",...f("city"),placeholder:"Cidade",containerPosition:"city",error:C.city,readOnly:!0}),k.jsx(pr,{type:"text",...f("uf"),placeholder:"UF",containerPosition:"state",error:C.uf,readOnly:!0})]})]}),k.jsxs(rw,{children:[k.jsxs(iw,{children:[k.jsx(Ld,{size:22}),k.jsxs("div",{children:[k.jsx("span",{children:"Pagamento"}),k.jsx("p",{children:"O pagamento é feito na entrega. Escolha a forma que deseja pagar"})]})]}),k.jsxs("div",{children:[k.jsxs(ow,{children:[k.jsxs(lu,{isSelected:y==="credit",...f("paymentMethod"),value:"credit",children:[k.jsx(S0,{size:16}),k.jsx("span",{children:"CARTÂO DE CRÉDITO"})]}),k.jsxs(lu,{isSelected:y==="debit",...f("paymentMethod"),value:"debit",children:[k.jsx(w0,{size:16}),k.jsx("span",{children:"CARTÂO DE DÉBITO"})]}),k.jsxs(lu,{isSelected:y==="cash",...f("paymentMethod"),value:"cash",children:[k.jsx(C0,{size:16}),k.jsx("span",{children:"DINHEIRO"})]})]}),C.paymentMethod&&k.jsx(sw,{children:C.paymentMethod.message})]})]})]})]}),k.jsxs(aw,{children:[k.jsx(Ep,{children:"Cafés selecionados"}),k.jsxs(lw,{children:[k.jsx(uw,{children:e.map(L=>k.jsx(q8,{id:L.id,image:L.image,title:L.title,price:L.price,amount:L.amount},L.id))}),k.jsxs(cw,{children:[k.jsxs(dw,{children:[k.jsxs("div",{children:[k.jsx("span",{children:"Total de itens"}),k.jsx("span",{children:u})]}),k.jsxs("div",{children:[k.jsx("span",{children:"Entrega"}),k.jsx("span",{children:c})]}),k.jsxs("div",{children:[k.jsx("h4",{children:"Total"}),k.jsx("h4",{children:p})]})]}),k.jsx(fw,{form:"completeOrderForm",type:"submit",disabled:i,children:i?k.jsx(E0,{size:28}):"CONFIRMAR PEDIDO"})]})]})]})]}):k.jsxs(pw,{children:[k.jsx("h1",{children:"Seu carrinho está vazio."}),k.jsx("h2",{children:"Não perca nossas promoções incríveis!"}),k.jsxs(hw,{onClick:h,children:[k.jsx(wl,{size:18,weight:"fill"}),"Voltar às Compras"]})]})})}const vw="/coffee-delivery/assets/Bike-YOVzfe4Z.svg",kw=G.main`
   max-width: 1160px;
   margin: 0 auto;
   padding: 80px 20px;
@@ -894,13 +894,13 @@ Error generating stack: `+o.message+`
   @media ${st.sm} {
     gap: 20px;
   }
-`,kw=G.section`
+`,xw=G.section`
   max-width: 526px;
 
   display: flex;
   flex-direction: column;
   gap: 40px;
-`,xw=G.header`
+`,ww=G.header`
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -922,7 +922,7 @@ Error generating stack: `+o.message+`
       font-size: 1em;
     }
   }
-`,ww=G.div`
+`,Ew=G.div`
   padding: 40px;
 
   display: flex;
@@ -955,14 +955,14 @@ Error generating stack: `+o.message+`
   display: flex;
   align-items: center;
   gap: 12px;
-`,Ew={purple:"purple",yellow:"yellow",yellowDark:"yellow-dark"},cu=G.div`
+`,_w={purple:"purple",yellow:"yellow",yellowDark:"yellow-dark"},cu=G.div`
   padding: 8px;
 
   display: flex;
   border-radius: 50%;
-  background: ${e=>e.theme[Ew[e.$stampColor]]};
+  background: ${e=>e.theme[_w[e.$stampColor]]};
 
   > svg {
     color: ${e=>e.theme.white};
   }
-`;function _w(){const{completeAddress:e}=El(),{street:t,number:n,neighborhood:r,city:i,uf:o}=e,{paymentMethod:s}=Gi(),a=[{payment:"credit",text:"Cartão de Crédito"},{payment:"debit",text:"Cartão de Débito"},{payment:"cash",text:"Pagamento em Dinheiro"}],u=a.findIndex(p=>p.payment==s),c=a[u];return k.jsxs(vw,{children:[k.jsxs(kw,{"data-aos":"fade-right",children:[k.jsxs(xw,{children:[k.jsx("h1",{children:"Uhu! Pedido confirmado"}),k.jsx("h2",{children:"Agora é só aguardar que logo o café chegará até você"})]}),k.jsxs(ww,{children:[k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"purple",children:k.jsx(jd,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsxs("p",{children:["Entrega em"," ",k.jsxs("b",{children:[t,", ",n]})]}),k.jsxs("p",{children:[r," - ",i,", ",o]})]})]}),k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"yellow",children:k.jsx(Cd,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsx("p",{children:"Previsão de entrega"}),k.jsx("strong",{children:"20 min - 30 min"})]})]}),k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"yellowDark",children:k.jsx(Ld,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsx("p",{children:"Pagamento na entrega"}),k.jsx("strong",{children:c.text})]})]})]})]}),k.jsx("img",{src:gw,alt:"Imagem de moto realizando entrega","data-aos":"zoom-in"})]})}function Sw({children:e}){const{paymentMethod:t}=Gi();return t?e:k.jsx(y0,{to:"/"})}function Lw(){return k.jsx(Ck,{children:k.jsxs(ni,{path:"/",element:k.jsx(e8,{}),children:[k.jsx(ni,{path:"/",element:k.jsx(D8,{})}),k.jsx(ni,{path:"/checkout",element:k.jsx(yw,{})}),k.jsx(ni,{path:"/success",element:k.jsx(Sw,{children:k.jsx(_w,{})})}),k.jsx(ni,{path:"*",element:k.jsx(y0,{to:"/",replace:!0})})]})})}function jw(){return P.useEffect(()=>{Hk.init()}),k.jsxs(Mv,{theme:Uk,children:[k.jsx(Ok,{children:k.jsx(Yk,{children:k.jsx(t2,{children:k.jsx(Lw,{})})})}),k.jsx(S8,{richColors:!0,position:"top-right",toastOptions:{style:{padding:"12px"}}}),k.jsx(Zk,{})]})}du.createRoot(document.getElementById("root")).render(k.jsx(jw,{}));
+`;function Sw(){const{completeAddress:e}=El(),{street:t,number:n,neighborhood:r,city:i,uf:o}=e,{paymentMethod:s}=Gi(),a=[{payment:"credit",text:"Cartão de Crédito"},{payment:"debit",text:"Cartão de Débito"},{payment:"cash",text:"Pagamento em Dinheiro"}],u=a.findIndex(p=>p.payment==s),c=a[u];return k.jsxs(kw,{children:[k.jsxs(xw,{"data-aos":"fade-right",children:[k.jsxs(ww,{children:[k.jsx("h1",{children:"Uhu! Pedido confirmado"}),k.jsx("h2",{children:"Agora é só aguardar que logo o café chegará até você"})]}),k.jsxs(Ew,{children:[k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"purple",children:k.jsx(jd,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsxs("p",{children:["Entrega em"," ",k.jsxs("b",{children:[t,", ",n]})]}),k.jsxs("p",{children:[r," - ",i,", ",o]})]})]}),k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"yellow",children:k.jsx(Cd,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsx("p",{children:"Previsão de entrega"}),k.jsx("strong",{children:"20 min - 30 min"})]})]}),k.jsxs(uu,{children:[k.jsx(cu,{$stampColor:"yellowDark",children:k.jsx(Ld,{size:16,weight:"fill"})}),k.jsxs("div",{children:[k.jsx("p",{children:"Pagamento na entrega"}),k.jsx("strong",{children:c.text})]})]})]})]}),k.jsx("img",{src:vw,alt:"Imagem de moto realizando entrega","data-aos":"zoom-in"})]})}function Lw({children:e}){const{paymentMethod:t}=Gi();return t?e:k.jsx(y0,{to:"/"})}function jw(){return k.jsx(Ck,{children:k.jsxs(ni,{path:"/",element:k.jsx(e8,{}),children:[k.jsx(ni,{path:"/",element:k.jsx(V8,{})}),k.jsx(ni,{path:"/checkout",element:k.jsx(gw,{})}),k.jsx(ni,{path:"/success",element:k.jsx(Lw,{children:k.jsx(Sw,{})})}),k.jsx(ni,{path:"*",element:k.jsx(y0,{to:"/",replace:!0})})]})})}function Cw(){return P.useEffect(()=>{Hk.init()}),k.jsxs(Mv,{theme:Uk,children:[k.jsx(Ok,{children:k.jsx(Yk,{children:k.jsx(t2,{children:k.jsx(jw,{})})})}),k.jsx(S8,{richColors:!0,position:"top-right",toastOptions:{style:{padding:"12px"}}}),k.jsx(Zk,{})]})}du.createRoot(document.getElementById("root")).render(k.jsx(Cw,{}));
