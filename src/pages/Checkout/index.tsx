@@ -43,6 +43,7 @@ import {
   WishListContainer,
   WishListContent,
 } from "./styles";
+import { GetZipCodeQuery } from "../../api/getZipCodeQuery";
 
 const newPurchaseFormValidationSchema = z.object({
   cep: z
@@ -162,8 +163,7 @@ export function Checkout() {
       }
 
       if (observingZipCode !== undefined && observingZipCode.length === 8) {
-        fetch(`http://viacep.com.br/ws/${observingZipCode}/json/`)
-          .then((response) => response.json())
+        GetZipCodeQuery(observingZipCode)
           .then((data) => {
             if (data.erro) {
               toast.warning("Verifique se o CEP está correto.");

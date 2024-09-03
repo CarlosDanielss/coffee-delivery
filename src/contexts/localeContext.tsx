@@ -1,5 +1,7 @@
 import { ReactNode, createContext, useEffect, useState } from "react";
 
+import { GetBrazilianStates } from "../api/getBrazilianStates";
+
 export interface ListStateProps {
   id: number;
   nome: string;
@@ -67,9 +69,9 @@ export function LocaleContextProvider({
   });
 
   useEffect(() => {
-    fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
-      .then((response) => response.json())
-      .then((data) => setState((prev) => ({ ...prev, listAllStates: data })));
+    GetBrazilianStates().then((data) =>
+      setState((prev) => ({ ...prev, listAllStates: data }))
+    );
   }, []);
 
   useEffect(() => {
@@ -105,7 +107,7 @@ export function LocaleContextProvider({
         completeAddress,
         selectState,
         clearSelectedState,
-        setFullAddress
+        setFullAddress,
       }}
     >
       {children}
