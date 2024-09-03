@@ -1,3 +1,5 @@
+import expresso from "../public/coffees/expresso.png";
+
 export const Coffes = [
   {
     id: "0",
@@ -5,7 +7,7 @@ export const Coffes = [
     description: "O tradicional café feito com água quente e grãos moídos",
     tags: ["tradicional"],
     price: 9.9,
-    image: "./coffees/expresso.png",
+    image: expresso,
   },
   {
     id: "1",
