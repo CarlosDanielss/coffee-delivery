@@ -1,4 +1,17 @@
 import expresso from "../public/coffees/expresso.png";
+import americano from "../public/coffees/americano.png";
+import expressoCremoso from "../public/coffees/expresso-cremoso.png";
+import cafeGelado from "../public/coffees/cafe-gelado.png";
+import cafeComLeite from "../public/coffees/cafe-com-leite.png";
+import latte from "../public/coffees/latte.png";
+import capuccino from "../public/coffees/capuccino.png";
+import macchiato from "../public/coffees/macchiato.png";
+import mochaccino from "../public/coffees/mochaccino.png";
+import chocolateQuente from "../public/coffees/chocolate-quente.png";
+import cubano from "../public/coffees/cubano.png";
+import havaiano from "../public/coffees/havaiano.png";
+import arabe from "../public/coffees/arabe.png";
+import irlandes from "../public/coffees/irlandes.png";
 
 export const Coffes = [
   {
@@ -15,7 +28,7 @@ export const Coffes = [
     description: "Expresso diluído, menos intenso que o tradicional",
     tags: ["tradicional"],
     price: 9.9,
-    image: "./coffees/americano.png",
+    image: americano,
   },
   {
     id: "2",
@@ -23,7 +36,7 @@ export const Coffes = [
     description: "Café expresso tradicional com espuma cremosa",
     tags: ["tradicional"],
     price: 9.9,
-    image: "./coffees/expresso-cremoso.png",
+    image: expressoCremoso,
   },
   {
     id: "3",
@@ -31,7 +44,7 @@ export const Coffes = [
     description: "Bebida preparada com café expresso e cubos de gelo",
     tags: ["tradicional", "gelado"],
     price: 9.9,
-    image: "./coffees/cafe-gelado.png",
+    image: cafeGelado,
   },
   {
     id: "4",
@@ -39,7 +52,7 @@ export const Coffes = [
     description: "Meio a meio de expresso tradicional com leite vaporizado",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "./coffees/cafe-com-leite.png",
+    image: cafeComLeite,
   },
   {
     id: "5",
@@ -48,7 +61,7 @@ export const Coffes = [
       "Uma dose de café expresso com o dobro de leite e espuma cremosa",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "./coffees/latte.png",
+    image: latte,
   },
   {
     id: "6",
@@ -57,7 +70,7 @@ export const Coffes = [
       "Bebida com canela feita de doses iguais de café, leite e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "./coffees/capuccino.png",
+    image: capuccino,
   },
   {
     id: "7",
@@ -66,7 +79,7 @@ export const Coffes = [
       "Café expresso misturado com um pouco de leite quente e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "./coffees/macchiato.png",
+    image: macchiato,
   },
   {
     id: "8",
@@ -75,7 +88,7 @@ export const Coffes = [
       "Café expresso misturado com um pouco de leite quente e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "./coffees/mochaccino.png",
+    image: mochaccino,
   },
   {
     id: "9",
@@ -83,7 +96,7 @@ export const Coffes = [
     description: "Bebida feita com chocolate dissolvido no leite quente e café",
     tags: ["especial", "com leite"],
     price: 9.9,
-    image: "./coffees/chocolate-quente.png",
+    image: chocolateQuente,
   },
   {
     id: "10",
@@ -92,7 +105,7 @@ export const Coffes = [
       "Drink gelado de café expresso com rum, creme de leite e hortelã",
     tags: ["especial", "alcoólico", "gelado"],
     price: 9.9,
-    image: "./coffees/cubano.png",
+    image: cubano,
   },
   {
     id: "11",
@@ -100,7 +113,7 @@ export const Coffes = [
     description: "Bebida adocicada preparada com café e leite de coco",
     tags: ["especial"],
     price: 9.9,
-    image: "./coffees/havaiano.png",
+    image: havaiano,
   },
   {
     id: "12",
@@ -108,7 +121,7 @@ export const Coffes = [
     description: "Bebida preparada com grãos de café árabe e especiarias",
     tags: ["especial"],
     price: 9.9,
-    image: "./coffees/arabe.png",
+    image: arabe,
   },
   {
     id: "13",
@@ -116,6 +129,6 @@ export const Coffes = [
     description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
     tags: ["especial", "alcoólico"],
     price: 9.9,
-    image: "../coffees/irlandes.png",
+    image: irlandes,
   },
 ];
