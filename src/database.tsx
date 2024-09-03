@@ -5,7 +5,7 @@ export const Coffes = [
     description: "O tradicional café feito com água quente e grãos moídos",
     tags: ["tradicional"],
     price: 9.9,
-    image: "/coffees/expresso.png",
+    image: "./coffees/expresso.png",
   },
   {
     id: "1",
@@ -13,7 +13,7 @@ export const Coffes = [
     description: "Expresso diluído, menos intenso que o tradicional",
     tags: ["tradicional"],
     price: 9.9,
-    image: "/coffees/americano.png",
+    image: "./coffees/americano.png",
   },
   {
     id: "2",
@@ -21,7 +21,7 @@ export const Coffes = [
     description: "Café expresso tradicional com espuma cremosa",
     tags: ["tradicional"],
     price: 9.9,
-    image: "/coffees/expresso-cremoso.png",
+    image: "./coffees/expresso-cremoso.png",
   },
   {
     id: "3",
@@ -29,7 +29,7 @@ export const Coffes = [
     description: "Bebida preparada com café expresso e cubos de gelo",
     tags: ["tradicional", "gelado"],
     price: 9.9,
-    image: "/coffees/cafe-gelado.png",
+    image: "./coffees/cafe-gelado.png",
   },
   {
     id: "4",
@@ -37,7 +37,7 @@ export const Coffes = [
     description: "Meio a meio de expresso tradicional com leite vaporizado",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "/coffees/cafe-com-leite.png",
+    image: "./coffees/cafe-com-leite.png",
   },
   {
     id: "5",
@@ -46,7 +46,7 @@ export const Coffes = [
       "Uma dose de café expresso com o dobro de leite e espuma cremosa",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "/coffees/latte.png",
+    image: "./coffees/latte.png",
   },
   {
     id: "6",
@@ -55,7 +55,7 @@ export const Coffes = [
       "Bebida com canela feita de doses iguais de café, leite e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "/coffees/capuccino.png",
+    image: "./coffees/capuccino.png",
   },
   {
     id: "7",
@@ -64,7 +64,7 @@ export const Coffes = [
       "Café expresso misturado com um pouco de leite quente e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "/coffees/macchiato.png",
+    image: "./coffees/macchiato.png",
   },
   {
     id: "8",
@@ -73,7 +73,7 @@ export const Coffes = [
       "Café expresso misturado com um pouco de leite quente e espuma",
     tags: ["tradicional", "com leite"],
     price: 9.9,
-    image: "/coffees/mochaccino.png",
+    image: "./coffees/mochaccino.png",
   },
   {
     id: "9",
@@ -81,7 +81,7 @@ export const Coffes = [
     description: "Bebida feita com chocolate dissolvido no leite quente e café",
     tags: ["especial", "com leite"],
     price: 9.9,
-    image: "/coffees/chocolate-quente.png",
+    image: "./coffees/chocolate-quente.png",
   },
   {
     id: "10",
@@ -90,7 +90,7 @@ export const Coffes = [
       "Drink gelado de café expresso com rum, creme de leite e hortelã",
     tags: ["especial", "alcoólico", "gelado"],
     price: 9.9,
-    image: "/coffees/cubano.png",
+    image: "./coffees/cubano.png",
   },
   {
     id: "11",
@@ -98,7 +98,7 @@ export const Coffes = [
     description: "Bebida adocicada preparada com café e leite de coco",
     tags: ["especial"],
     price: 9.9,
-    image: "/coffees/havaiano.png",
+    image: "./coffees/havaiano.png",
   },
   {
     id: "12",
@@ -106,7 +106,7 @@ export const Coffes = [
     description: "Bebida preparada com grãos de café árabe e especiarias",
     tags: ["especial"],
     price: 9.9,
-    image: "/coffees/arabe.png",
+    image: "./coffees/arabe.png",
   },
   {
     id: "13",
@@ -114,6 +114,6 @@ export const Coffes = [
     description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
     tags: ["especial", "alcoólico"],
     price: 9.9,
-    image: "/coffees/irlandes.png",
+    image: "./coffees/irlandes.png",
   },
 ];
