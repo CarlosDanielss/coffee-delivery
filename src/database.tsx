@@ -114,6 +114,6 @@ export const Coffes = [
     description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
     tags: ["especial", "alcoólico"],
     price: 9.9,
-    image: "./coffees/irlandes.png",
+    image: "../coffees/irlandes.png",
   },
 ];
