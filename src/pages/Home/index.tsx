@@ -2,10 +2,10 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 
 import { CardCatalog } from "../../components/CardCatalog";
 
-import { coffees } from "../../../database.json";
-
 import backgroundImage from "../../assets/images/Background.svg";
 import CupCoffee from "../../assets/images/CupCoffee.png";
+
+import { Coffes } from "../../database.js";
 
 import {
   HomeContainer,
@@ -79,7 +79,7 @@ export function Home() {
         <h3>Nossos cafés</h3>
 
         <div>
-          {coffees.map((item) => {
+          {Coffes.map((item) => {
             return (
               <CardCatalog
                 key={item.id}
